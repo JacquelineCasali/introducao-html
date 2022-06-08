@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site </title>
+    <title>Meu Site</title>
 </head>
 <body>
     <!-- hearder cabeçalho - Menu de navegação e outras informações -->
@@ -15,15 +15,18 @@
         <!-- type escolhe o tipo de marcação numeração -->
         <ol type="A">
             <!--li  item da lista  -->
-            <li>Sobre</li>
+            <li><a href="#titulo-cuscuz"></a>Sobre Cuscuz</li>
             <li>Contato</li>
             <li>Portifólio</li>
         </ol>
             <!-- ul -lista desordenada  -->
         <ul type="square">
-            <li>Sobre</li>
+            <!-- <a href= ></a> linkar  -->
+            <li><a href="./" target="_parent">Sobre</a></li>
+            <li><a href="./sobre.html" >Sobre</a></li>
             <li>Contato</li>
-            <li>Portifólio</li>
+            <li><a href="https://github.com/">Github</a></li>
+
         </ul>
         </nav>
     </header>
@@ -37,8 +40,85 @@
         <h4>Titulo 4</h4>
         <h5>Titulo 5</h5>
         <h6>Titulo 6</h6>
+        <!-- tags para separa texto sem significado semantico -->
+        <!-- p cria um paragrafo -->
+        <p>paragrafo</p>
+         <!-- span separa texto pode colocar estilo diferente -->
+         <span>Separa texto </span>
+        <!-- lorem no p fazr texto aleatorio -->
+        <p>Lorem ipsum dolor sit, <span>amet consectetur </span> adipisicing elit. Pariatur accusantium in officia tempora, illo quidem ex deleniti itaque? Pariatur commodi, aut perferendis saepe dolore doloribus atque ab nihil repellat sed.</p>
+       <!-- br pula linha -->
+       <br/>
+       <!-- b trasnforma o texto em negrito -->
+        <b>trasnforma o texto em negrito</b>
+        <br/>
+        <strong>trasnforma o texto em negrito porém com significado semântico. Diz que o texto tem importância</strong>
+        <br/>
+        <!-- i texto italico  -->
+        <i>amor</i>
+        <!-- br pula linha NÃO É UMA BOA PRATICA USAR BR-->
+        <br/>
+        <em>texto italico porem com significado semântico. Da emfase  envas</em>
+       <br/>
+        <!-- mark detaca o texto amarelo-->
+        <mark>destaca o texto </mark>
+        <br/>
+        <cite>citação geral</cite>
+        <div>
+            <abbr title="Javascripit">JS</abbr>
+        </div>
+        <!-- abbr abrevia o texto  -->
+        <!-- Title = titulo -->
+        
+
+        <!-- TAGS DE DIVISÃO -->
+    <!-- div divide conteudo. Não possui siginificado semantico ou pula linha  -->
+        <div>divide conteudo. Não possui siginificado semantico ou pula linha</div>
+        <!-- section divide conteudo possui significado semantico -->
+        <section>divide conteudo possui significado semantico</section>
+        <!-- articlue fragmento de uma seção -->
+        <article>fragmento de uma seção</article>
+
+        <section>
+<!-- links com ancoras volta onde quer -->
+            <h2 id="titulo-cuscuz">Cuscuz</h2>
+            <!-- colocando imagem alt é uma mensagem usada quando a imagen nao aparece no site -->
+            <!-- width=largura height=altura -->
+            <img src="./img/cuscuz.jpg" alt="cuscuz" width="200px" height="200px"/>
+            <!-- ima pode colocar link de site -->
+            <img src="https://avatars.githubusercontent.com/u/30788371?v=4" alt="cuscuz" width="200px" height="200px"/>
+          <article> 
+            <h3>Por que o cuscuz é tão bom?</h3>
+            <p>cuscuz é bom porque é bom</p>
+        </article>
+        <article>
+            <h3>Como faz cuscuz?</h3>
+            <p>Só seguir o tutorial no yt</p>
+          </article>
+          </section>
+
+          <section>
+            <h2>Baião de dois</h2>
+          <article> 
+            <h3>Por que é tão bom?</h3>
+            <p>cuscuz é bom</p>
+        </article>
+       </section>
+       <section>
+        <h2>Esporte</h2>
+      <article> 
+        <h3>Futebol</h3>
+        <p>Futebol é top, vai Neymar</p>
+    </article>
+    <article> 
+        <h3>Basquete</h3>
+        <p>Basquete também é top</p>
+    </article>
+   </section>
     </main>
     <!-- footer rodapé da pagina -->
-    <footer></footer>
+    <footer>
+
+    </footer>
 </body>
 </html>
